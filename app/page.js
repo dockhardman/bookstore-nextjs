@@ -5,7 +5,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 export default function Home() {
   return (
     <ChakraProvider>
-      <div>
+      <div class="flex justify-center items-center">
         <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
         <Link href="/dashboard">Dashboard</Link>
       </div>
